@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
+* {
+    font-family: 'Fira Mono', monospace;
+}
+
+a {
+    @apply italic underline;
+}
+
+button {
+    @apply bg-[#1e1e1e] text-white px-8 py-2;
+}
